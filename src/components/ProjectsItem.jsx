@@ -5,8 +5,8 @@ function ProjectsItem( { title, description, image, link } ) {
     return (
         <div className="ProjectsItem">
             <p> { title } </p>
-            <p> { description } </p>
             <img src={ image } alt={ title } />
+            <p> { description } </p>
             <a href={ link } target="_blank" rel="noreferrer"> { link } </a>
         </div>
     )
