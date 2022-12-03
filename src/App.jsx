@@ -3,6 +3,7 @@ import './App.css'
 import Intro from './components/Intro'
 import Projects from './components/Projects'
 import Calendar from './components/Calendar'
+import Contact from './components/Contact'
 
 function App() {
 
@@ -25,6 +26,7 @@ function App() {
       <div className="App">
         <Intro lang={lang}/>
         <Projects lang={lang}/>
+        <Contact />
         <Calendar />
       </div>
     </>
