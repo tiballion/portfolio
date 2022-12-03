@@ -8,6 +8,7 @@ import './styles/projects.css';
 function Projects() {
     return (
         <div className="Projects">
+            <h2>Featured projects</h2>
             <div className="Projects-content">
                 { projects.map( (project) => (
                     <ProjectsItem

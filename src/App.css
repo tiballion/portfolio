@@ -10,6 +10,20 @@
   top: 0.5em;
   right: 0.5em;
   margin: 0;
-  /*make the text of the button bigger*/
   font-size: 3rem;
+}
+
+@media (max-width: 900px) {
+  .langbutton {
+    top: 3.5em;
+    right: 0.5em;
+  }
+}
+
+@media (max-width: 700px) {
+  .langbutton {
+    font-size: 1.8em;
+    top: 0.5em;
+    right: 0.5em;
+  }
 }
