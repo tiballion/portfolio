@@ -24,7 +24,7 @@ function App() {
       <button className="langbutton" onClick={switchLang}>{flag}</button>
       <div className="App">
         <Intro lang={lang}/>
-        <Projects />
+        <Projects lang={lang}/>
         <Calendar />
       </div>
     </>

@@ -1,14 +1,17 @@
 import React from 'react';
 
 import projects from '../data/projects.js';
+import translation from '../data/translation.js';
 import ProjectsItem from './ProjectsItem';
 
 import './styles/projects.css';
 
-function Projects() {
+function Projects( {lang} ) {
     return (
         <div className="Projects">
-            <h2>Featured projects</h2>
+            <h2>
+                {lang === 'en' ? translation.en.projects : translation.fr.projects}
+            </h2>
             <div className="Projects-content">
                 { projects.map( (project) => (
                     <ProjectsItem
