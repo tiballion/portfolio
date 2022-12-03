@@ -4,3 +4,12 @@
   padding: 2rem;
   text-align: center;
 }
+
+.langbutton {
+  position: fixed;
+  top: 0.5em;
+  right: 0.5em;
+  margin: 0;
+  /*make the text of the button bigger*/
+  font-size: 3rem;
+}
