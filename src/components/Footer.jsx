@@ -7,10 +7,12 @@ function Footer() {
 
     const handleEmail = () => {
         navigator.clipboard.writeText('timothee.ballion.33@gmail.com');
+        alert('Email copied to clipboard');
     }
 
     const handlePhone = () => {
         navigator.clipboard.writeText('+33 7 82 95 00 32');
+        alert('Phone number copied to clipboard');
     }
 
     return (
