@@ -27,8 +27,8 @@ function App() {
       <div className="App">
         <Intro lang={lang}/>
         <Projects lang={lang}/>
-        <Contact />
         <Calendar />
+        <Contact />
         <Footer />
       </div>
     </>
