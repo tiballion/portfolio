@@ -23,7 +23,7 @@ function Projects( {lang} ) {
                 ))}
             </div>
             <h3>
-            {lang === 'en' ? translation.en.projectsgit : translation.fr.projectsgit} : <a href="https://github.com/tiballion">github.com/tiballion</a>
+            {lang === 'en' ? translation.en.projectsgit : translation.fr.projectsgit} : <a href="https://github.com/tiballion" target="_blank" rel="noopener noreferrer" >github.com/tiballion</a>
             </h3>
         </div>
     )
