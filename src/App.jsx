@@ -4,6 +4,7 @@ import Intro from './components/Intro'
 import Projects from './components/Projects'
 import Calendar from './components/Calendar'
 import Contact from './components/Contact'
+import Footer from './components/Footer'
 
 function App() {
 
@@ -28,6 +29,7 @@ function App() {
         <Projects lang={lang}/>
         <Contact />
         <Calendar />
+        <Footer />
       </div>
     </>
   )
