@@ -9,7 +9,13 @@ function ProjectsItem( { title, description, image, link, stack } ) {
             <img src={ image } alt={ title } />
             <p> { description } </p>
             <a href={ link } target="_blank" rel="noreferrer"> { link } </a>
-            <p> { stack } </p>
+            <p>
+               {stack.map(item => (
+                  <span>
+                     {item + ' '}
+                  </span>
+               ))}
+            </p>
         </div>
     )
 }

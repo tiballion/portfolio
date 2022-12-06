@@ -19,7 +19,7 @@ function Projects( {lang} ) {
                         description={ project.description }
                         image={ project.image }
                         link={ project.link }
-                        stack={ project.stack }
+                        stack={ project.stack}
                     />
                 ))}
             </div>

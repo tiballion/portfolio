@@ -21,3 +21,7 @@
 .ProjectsItem:focus-visible {
     outline: 4px auto -webkit-focus-ring-color;
 }
+
+span {
+    border: #646cff;
+}
