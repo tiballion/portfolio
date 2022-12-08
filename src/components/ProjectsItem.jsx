@@ -5,7 +5,7 @@ import './styles/projectsitem.css'
 function ProjectsItem( { title, description, image, link, stack } ) {
     return (
         <div className="ProjectsItem">
-            <p> { title } </p>
+            <h3> { title } </h3>
             <img src={ image } alt={ title } />
             <p> { description } </p>
             <a href={ link } target="_blank" rel="noreferrer"> { link } </a>
