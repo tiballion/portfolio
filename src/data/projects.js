@@ -5,7 +5,7 @@ export default [
         description: 'Maxi description, bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla',
         image: 'https://picsum.photos/250/250',
         link: 'https://google.com',
-        stack: ['React', 'Node', 'MongoDB']
+        stack: ['React', 'Node', 'MongoDB', 'React', 'Node', 'MongoDB']
     },
     {
         id: 2,
