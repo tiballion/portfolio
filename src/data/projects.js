@@ -1,11 +1,11 @@
 export default [
     {
         id: 1,
-        title: 'Project 1',
-        description: 'Maxi description, bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla',
+        title: 'Penguinos',
+        description: 'A website/API that scrapes images of penguins from yahoo and displays them on page load',
         image: 'https://picsum.photos/250/250',
-        link: 'https://google.com',
-        stack: ['React', 'Node', 'MongoDB', 'React', 'Node', 'MongoDB']
+        link: 'http://penguinos.xyz',
+        stack: ['Python', 'Flask', 'Regex', 'API']
     },
     {
         id: 2,
