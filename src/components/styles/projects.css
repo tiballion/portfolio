@@ -19,3 +19,14 @@
         grid-template-columns: repeat(1, 1fr);
     }
 }
+
+a {
+    color: #646cff;
+    text-decoration: none;
+}
+
+a:visited,
+a:hover,
+a:active {
+    color: #646cff;
+}

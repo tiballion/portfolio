@@ -3,7 +3,6 @@ import './App.css'
 import Intro from './components/Intro'
 import Projects from './components/Projects'
 import Calendar from './components/Calendar'
-import Contact from './components/Contact'
 import Footer from './components/Footer'
 
 function App() {
@@ -28,7 +27,6 @@ function App() {
         <Intro lang={lang}/>
         <Projects lang={lang}/>
         <Calendar />
-        <Contact />
         <Footer />
       </div>
     </>

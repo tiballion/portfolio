@@ -26,6 +26,18 @@
     font-size: 1.75em;
 }
 
+.ProjectsItem a {
+    color: #646cff;
+    text-decoration: none;
+}
+
+.ProjectsItem a:visited,
+.ProjectsItem a:hover,
+.ProjectsItem a:active {
+    color: #646cff;
+}
+  
+
 span {
     border: #646cff;
 }
