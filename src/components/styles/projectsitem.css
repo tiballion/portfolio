@@ -39,5 +39,7 @@
   
 
 span {
-    border: #646cff;
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid black;
 }

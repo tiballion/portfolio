@@ -12,7 +12,7 @@ function ProjectsItem( { title, description, image, link, stack } ) {
             <p>
                {stack.map(item => (
                   <span>
-                     {item + ' '}
+                     {item}
                   </span>
                ))}
             </p>
