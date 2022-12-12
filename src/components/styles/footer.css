@@ -4,6 +4,7 @@ a {
     display: inline-block;
     padding-left: 0.5em;
     padding-right: 0.5em;
+    padding-top: 0.5em;
 }
 
 a .emailtooltip {
@@ -38,4 +39,19 @@ a:hover .emailtooltip {
 
 a:hover .phonetooltip {
     visibility: visible;
+}
+
+.Footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.footer-text {
+    font-size: 1em;
+    padding: 0px;
+    margin: 0px;
+    color: #999999;
 }
