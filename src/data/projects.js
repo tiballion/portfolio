@@ -9,18 +9,18 @@ export default [
     },
     {
         id: 2,
-        title: 'Project 2',
-        description: 'Maxi description, bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla',
+        title: 'Spotistats',
+        description: 'A flask website that displays statistics (most listened songs & artists) about your Spotify account',
         image: 'https://picsum.photos/250/250',
         link: 'https://google.com',
-        stack: ['React', 'Node', 'MongoDB']
+        stack: ['Flask', 'HTML/CSS', 'API', 'Python']
     },
     {
         id: 3,
-        title: 'Project 3',
-        description: 'Maxi description, bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla',
+        title: 'Discord token listener',
+        description: 'A javascript tool that listens and logs Discord messages with a token',
         image: 'https://picsum.photos/250/250',
         link: 'https://google.com',
-        stack: ['React', 'Node', 'MongoDB']
+        stack: ['Javascript', 'Discord', 'Bot', 'API']
     },
 ]
