@@ -7,7 +7,7 @@ function ProjectsItem( { title, description, image, link, stack } ) {
         <div className="ProjectsItem">
             <h3> { title } </h3>
             <img src={ image } alt={ title } />
-            <p> { description } </p>
+            <p style={{marginBottom: '0px'}}> { description } </p>
             <a href={ link } target="_blank" rel="noreferrer"> { link } </a>
             <p>
                {stack.map(item => (

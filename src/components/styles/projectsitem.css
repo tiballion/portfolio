@@ -11,6 +11,7 @@
     background-color: rgb(48, 47, 47);
     box-shadow: 0 0 1rem rgba(58, 58, 58, 0.1);
     align-self: center;
+    height: 550px;
 }
 
 .ProjectsItem:hover {
@@ -48,4 +49,12 @@
 
 .ProjectsItem h3 {
     margin-top: 10px;
+}
+
+.ProjectsItem img {
+    width: 250px;
+    height: 250px;
+    border-radius: 1rem;
+    margin: 1rem;
+    object-fit: cover;
 }
