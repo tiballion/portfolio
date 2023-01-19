@@ -8,6 +8,7 @@ function ProjectsItem({
   description_fr,
   image,
   link,
+  linktext,
   stack,
   lang,
 }) {
@@ -20,7 +21,7 @@ function ProjectsItem({
       </p>
       <a href={link} target="_blank" rel="noreferrer">
         {" "}
-        {link}{" "}
+        {linktext}{" "}
       </a>
       <p>
         {stack.map((item) => (

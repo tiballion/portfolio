@@ -1,60 +1,63 @@
 .ProjectsItem {
-    width : 75%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 1rem;
-    margin: 1rem;
-    border: 1px solid transparent;
-    border-radius: 1rem;
-    background-color: rgb(48, 47, 47);
-    box-shadow: 0 0 1rem rgba(58, 58, 58, 0.1);
-    align-self: center;
-    height: 550px;
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  margin: 1rem;
+  border: 1px solid transparent;
+  border-radius: 1rem;
+  background-color: rgb(48, 47, 47);
+  box-shadow: 0 0 1rem rgba(58, 58, 58, 0.1);
+  align-self: center;
+  height: 550px;
 }
 
 .ProjectsItem:hover {
-    border-color: #646cff;
+  border-color: #646cff;
 }
 
 .ProjectsItem:focus,
 .ProjectsItem:focus-visible {
-    outline: 4px auto -webkit-focus-ring-color;
+  outline: 4px auto -webkit-focus-ring-color;
 }
 
 .ProjectsItem h3 {
-    font-size: 1.75em;
+  font-size: 1.75em;
 }
 
 .ProjectsItem a {
-    color: #646cff;
-    text-decoration: none;
+  color: #646cff;
+  text-decoration: none;
 }
 
 .ProjectsItem a:visited,
 .ProjectsItem a:hover,
 .ProjectsItem a:active {
-    color: #646cff;
+  color: #646cff;
 }
-  
 
 .ProjectsItem span {
-    font-size: 0.8em;
-    margin: 5px;
-    padding: 5px;
-    border: 1px solid #fff;
-    border-radius: 5px;
+  font-size: 0.8em;
+  margin: 5px;
+  padding: 5px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+}
+
+.ProjectsItem span:hover {
+  opacity: 0.8;
 }
 
 .ProjectsItem h3 {
-    margin-top: 10px;
+  margin-top: 10px;
 }
 
 .ProjectsItem img {
-    width: 250px;
-    height: 250px;
-    border-radius: 1rem;
-    margin: 1rem;
-    object-fit: cover;
+  width: 250px;
+  height: 250px;
+  border-radius: 1rem;
+  margin: 1rem;
+  object-fit: cover;
 }

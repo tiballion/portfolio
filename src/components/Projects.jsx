@@ -20,6 +20,7 @@ function Projects({ lang }) {
             description_fr={project.description_fr}
             image={project.image}
             link={project.link}
+            linktext={project.linktext}
             stack={project.stack}
             lang={lang}
           />
