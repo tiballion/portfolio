@@ -1,15 +1,15 @@
-import React from 'react';
+import React from "react"
 
-import GitHubCalendar from 'react-github-calendar';
+import GitHubCalendar from "react-github-calendar"
 
-import './styles/calendar.css';
+import "./styles/calendar.css"
 
 function Calendar() {
-    return (
-        <div className="Calendar">
-            <GitHubCalendar username="tiballion" />
-        </div>
-    )
+  return (
+    <div className="Calendar">
+      <GitHubCalendar username="tiballion" />
+    </div>
+  )
 }
 
 export default Calendar
