@@ -19,24 +19,15 @@ export default () => {
       <Link to="/" className="arrow">
         ←
       </Link>
-      <div className="title">
-        <h1>{retex[id].title}</h1>
-      </div>
+      <h1 className="title">{retex[id].title}</h1>
       <h3>{retex[id].description}</h3>
-      <div className="info">
-        <p className="stack">
-          {" "}
-          Technologies utilisées :
-          {retex[id].stack.map((item) => (
-            <span>{item}</span>
-          ))}
-        </p>
-        {retex[id].link && (
-          <a href={retex[id].link} target="_blank">
-            <button className="btn">{retex[id].linktext}</button>
-          </a>
-        )}
-      </div>
+      <p className="stack">
+        {" "}
+        Technologies utilisées :
+        {retex[id].stack.map((item) => (
+          <span>{item}</span>
+        ))}
+      </p>
       <p className="stack">
         {" "}
         Compétences acquises :
@@ -44,6 +35,11 @@ export default () => {
           <span>{item}</span>
         ))}
       </p>
+      {retex[id].link && (
+        <a href={retex[id].link} target="_blank">
+          <button className="btn">{retex[id].linktext}</button>
+        </a>
+      )}
       <p className="details">{retex[id].details}</p>
       <a href={retex[id].link} target="_blank">
         <img src={retex[id].image} alt={retex[id].title} className="main-img" />

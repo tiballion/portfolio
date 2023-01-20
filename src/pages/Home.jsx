@@ -6,8 +6,8 @@ import Calendar from "../components/Calendar"
 import Footer from "../components/Footer"
 
 function Home() {
-  const [lang, setLang] = useState("en")
-  const [flag, setFlag] = useState("🇬🇧")
+  const [lang, setLang] = useState("fr")
+  const [flag, setFlag] = useState("🇫🇷")
 
   const switchLang = () => {
     if (lang === "en") {
