@@ -13,6 +13,9 @@ export default () => {
     )
   return (
     <div className="Retex">
+      <Link to="/" className="arrow">
+        ←
+      </Link>
       <div className="title">
         <h1>{retex[id - 1].title}</h1>
       </div>
@@ -46,9 +49,6 @@ export default () => {
           className="main-img"
         />
       </a>
-      <Link to="/" className="link">
-        Go back
-      </Link>
     </div>
   )
 }
