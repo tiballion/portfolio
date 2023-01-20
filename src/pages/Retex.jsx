@@ -8,7 +8,10 @@ export default () => {
     return (
       <>
         <h1>Retex not found</h1>
-        <h4>Please make sure the number you entered is correct</h4>
+        <h4>Please make sure the query parameter is a number and is correct</h4>
+        <Link to="/" class="btn-index-error">
+          Go back
+        </Link>
       </>
     )
   return (

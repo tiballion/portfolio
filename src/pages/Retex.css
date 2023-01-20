@@ -80,3 +80,15 @@
   background-color: #646cff;
   color: white;
 }
+
+.btn-index-error {
+  text-align: center;
+  border: 1px solid #646cff;
+  border-radius: 1rem;
+  padding: 0.5rem;
+}
+
+.btn-index-error:hover {
+  background-color: #646cff;
+  color: white;
+}

@@ -30,7 +30,9 @@ function ProjectsItem({
           <span>{item}</span>
         ))}
       </p>
-      <Link to={`/retex/${index}`}>See more</Link>
+      <Link to={`/retex/${index}`} className="btn-see-more">
+        {lang === "en" ? "See more" : "Voir plus"}
+      </Link>
     </div>
   )
 }
