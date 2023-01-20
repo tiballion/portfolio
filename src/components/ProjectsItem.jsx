@@ -1,8 +1,10 @@
 import React from "react"
+import { Link } from "react-router-dom"
 
 import "./styles/projectsitem.css"
 
 function ProjectsItem({
+  index,
   title,
   description,
   description_fr,
@@ -28,6 +30,7 @@ function ProjectsItem({
           <span>{item}</span>
         ))}
       </p>
+      <Link to={`/retex/${index}`}>See more</Link>
     </div>
   )
 }

@@ -4,7 +4,7 @@ import "./Retex.css"
 
 export default () => {
   const { id } = useParams()
-  if (!retex[id - 1])
+  if (!retex[id])
     return (
       <>
         <h1>Retex not found</h1>
@@ -17,37 +17,33 @@ export default () => {
         ←
       </Link>
       <div className="title">
-        <h1>{retex[id - 1].title}</h1>
+        <h1>{retex[id].title}</h1>
       </div>
-      <h3>{retex[id - 1].description}</h3>
+      <h3>{retex[id].description}</h3>
       <div className="info">
         <p className="stack">
           {" "}
           Technologies utilisées :
-          {retex[id - 1].stack.map((item) => (
+          {retex[id].stack.map((item) => (
             <span>{item}</span>
           ))}
         </p>
-        {retex[id - 1].link && (
-          <a href={retex[id - 1].link} target="_blank">
-            <button className="btn">{retex[id - 1].linktext}</button>
+        {retex[id].link && (
+          <a href={retex[id].link} target="_blank">
+            <button className="btn">{retex[id].linktext}</button>
           </a>
         )}
       </div>
       <p className="stack">
         {" "}
         Compétences acquises :
-        {retex[id - 1].skills.map((item) => (
+        {retex[id].skills.map((item) => (
           <span>{item}</span>
         ))}
       </p>
-      <p className="details">{retex[id - 1].details}</p>
-      <a href={retex[id - 1].link} target="_blank">
-        <img
-          src={retex[id - 1].image}
-          alt={retex[id - 1].title}
-          className="main-img"
-        />
+      <p className="details">{retex[id].details}</p>
+      <a href={retex[id].link} target="_blank">
+        <img src={retex[id].image} alt={retex[id].title} className="main-img" />
       </a>
     </div>
   )

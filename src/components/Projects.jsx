@@ -13,8 +13,9 @@ function Projects({ lang }) {
         {lang === "en" ? translation.en.projects : translation.fr.projects}
       </h2>
       <div className="Projects-content">
-        {projects.map((project) => (
+        {projects.map((project, index) => (
           <ProjectsItem
+            index={index}
             title={project.title}
             description={project.description}
             description_fr={project.description_fr}
