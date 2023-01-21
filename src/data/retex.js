@@ -58,7 +58,7 @@ export default [
       "Un site web Symfony qui permet de rechercher des séries et films",
     image:
       "https://media.discordapp.net/attachments/897109830395895858/1065981053958901820/Moovy_logo.PNG",
-    link: "moovy.pluviaux.fr",
+    link: "https://moovy.pluviaux.fr",
     linktext: "Demo",
     stack: ["Symfony", "HTML/CSS", "API", "PHP"],
     details:
