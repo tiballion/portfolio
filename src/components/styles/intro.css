@@ -1,23 +1,23 @@
 .Intro {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
 }
 
 .App-header {
-    color: rgba(255, 255, 255, 0.87);
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.87);
+  color: rgba(255, 255, 255, 0.87);
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.87);
 }
 
 .App-subheader {
-    color: rgba(255, 255, 255, 0.87);
-    padding-top: 1rem;
+  color: rgba(255, 255, 255, 0.87);
+  padding-top: 1rem;
 }
 
 .App-content {
-    width: 75%;
+  width: 75%;
 }

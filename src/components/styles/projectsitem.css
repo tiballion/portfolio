@@ -11,7 +11,7 @@
   background-color: rgb(48, 47, 47);
   box-shadow: 0 0 1rem rgba(58, 58, 58, 0.1);
   align-self: center;
-  height: 600px;
+  height: 610px;
 }
 
 .ProjectsItem:hover {
@@ -36,6 +36,7 @@
 .ProjectsItem a:hover,
 .ProjectsItem a:active {
   color: #646cff;
+  opacity: 0.8;
 }
 
 .ProjectsItem span {
