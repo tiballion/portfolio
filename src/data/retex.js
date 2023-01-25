@@ -57,12 +57,25 @@ export default [
     description:
       "Un site web Symfony qui permet de rechercher des séries et films",
     image:
-      "https://media.discordapp.net/attachments/897109830395895858/1065981053958901820/Moovy_logo.PNG",
+      "https://media.discordapp.net/attachments/990664077871284246/1067813136972922900/image.png?width=2062&height=1138",
     link: "https://moovy.pluviaux.fr",
     linktext: "Demo",
     stack: ["Symfony", "HTML/CSS", "API", "PHP"],
     details:
       "Moovy est un site web Symfony qui permet de rechercher des séries et films, il utilise l'API de IMDB pour récupérer les données et les affiche sur une page web.",
     skills: ["Symfony", "API", "PHP"],
+  },
+  {
+    id: 6,
+    title: "Mini RSA",
+    description: "Un programme en python qui chiffre et déchiffre des messages",
+    image:
+      "https://media.discordapp.net/attachments/867818293712912428/1065620295303569408/image.png",
+    link: "https://gitlab-ce.iut.u-bordeaux.fr/ztanji/cryptographie_sae_minirsa",
+    linktext: "Gitlab",
+    stack: ["Python", "RSA", "Cryptographie"],
+    details:
+      "Mini RSA est un programme en python qui chiffre et déchiffre des messages, il utilise l'algorithme RSA pour le chiffrement et le déchiffrement.",
+    skills: ["Python", "RSA", "Cryptographie"],
   },
 ]
