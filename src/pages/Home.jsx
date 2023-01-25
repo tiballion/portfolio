@@ -7,22 +7,15 @@ import Footer from "../components/Footer"
 
 function Home() {
   const [lang, setLang] = useState("en")
-  const [flag, setFlag] = useState("🇬🇧")
 
   const switchLang = () => {
-    if (lang === "en") {
-      setLang("fr")
-      setFlag("🇫🇷")
-    } else {
-      setLang("en")
-      setFlag("🇬🇧")
-    }
+    lang === "en" ? setLang("fr") : setLang("en")
   }
 
   return (
     <>
       <button className="langbutton" onClick={switchLang}>
-        {flag}
+        {lang == "en" ? "🇫🇷" : "🇬🇧"}
       </button>
       <div className="Home">
         <Intro lang={lang} />
