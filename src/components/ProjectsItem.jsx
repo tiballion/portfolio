@@ -26,8 +26,8 @@ function ProjectsItem({
         {linktext}{" "}
       </a>
       <p>
-        {stack.map((item) => (
-          <span>{item}</span>
+        {stack.map((item, index) => (
+          <span key={index}>{item}</span>
         ))}
       </p>
       <Link to={`/retex/${index}`} className="btn-see-more">

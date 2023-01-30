@@ -15,6 +15,7 @@ function Projects({ lang }) {
       <div className="Projects-content">
         {projects.map((project, index) => (
           <ProjectsItem
+            key={index}
             index={index}
             title={project.title}
             description={project.description}
