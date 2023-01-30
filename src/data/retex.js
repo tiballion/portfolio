@@ -67,15 +67,16 @@ export default [
   },
   {
     id: 6,
-    title: "Mini RSA",
-    description: "Un programme en python qui chiffre et déchiffre des messages",
+    title: "Google Author Search",
+    description:
+      "Une API Google qui vous permet de rechercher des livres avec un auteur donné",
     image:
-      "https://media.discordapp.net/attachments/867818293712912428/1065620295303569408/image.png",
-    link: "https://gitlab-ce.iut.u-bordeaux.fr/ztanji/cryptographie_sae_minirsa",
-    linktext: "Gitlab",
-    stack: ["Python", "RSA", "Cryptographie"],
+      "https://media.discordapp.net/attachments/913699588291043379/1069561135717683220/image.png?width=2160&height=1094",
+    link: "https://github.com/tiballion/googleauthor",
+    linktext: "Github",
+    stack: ["React", "Axios", "Google API"],
     details:
-      "Mini RSA est un programme en python qui chiffre et déchiffre des messages, il utilise l'algorithme RSA pour le chiffrement et le déchiffrement.",
-    skills: ["Python", "RSA", "Cryptographie"],
+      "Une API Google qui vous permet de rechercher des livres avec un auteur donné, elle utilise l'API de Google pour récupérer les données et les affiche sur une page web.",
+    skills: ["React", "API", "Parsing"],
   },
 ]

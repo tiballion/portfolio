@@ -65,14 +65,14 @@ export default [
   },
   {
     id: 6,
-    title: "Mini-RSA",
-    description: "A small RSA encryption/decryption program made with python",
+    title: "Google Author API",
+    description:
+      "A simple google API that allows you to researchs book given an author",
     description_fr:
-      "Un petit programme d'encryption/decryption RSA fait avec python",
-    image:
-      "https://qph.cf2.quoracdn.net/main-qimg-28cadbd02699c25a88e5c78d73c7babc",
-    link: "https://gitlab-ce.iut.u-bordeaux.fr/ztanji/cryptographie_sae_minirsa",
-    linktext: "Gitlab",
-    stack: ["Python", "RSA", "Encryption", "Decryption"],
+      "Une API Google qui vous permet de rechercher des livres avec un auteur donné",
+    image: "https://cdn-icons-png.flaticon.com/512/603/603197.png",
+    link: "https://github.com/tiballion/googleauthor",
+    linktext: "Github",
+    stack: ["React", "API", "Parsing"],
   },
 ]
