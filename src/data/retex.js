@@ -73,8 +73,8 @@ export default [
       "Une API Google qui vous permet de rechercher des livres avec un auteur donné",
     image:
       "https://media.discordapp.net/attachments/913699588291043379/1069561135717683220/image.png?width=2160&height=1094",
-    link: "https://github.com/tiballion/googleauthor",
-    linktext: "Github",
+    link: "https://googleauthor.vercel.app",
+    linktext: "Demo",
     stack: ["React", "Axios", "API"],
     details:
       "Une API Google qui vous permet de rechercher des livres avec un auteur donné, elle utilise l'API de Google pour récupérer les données et les affiche sur une page web.",
