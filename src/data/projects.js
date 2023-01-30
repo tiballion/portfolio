@@ -72,7 +72,7 @@ export default [
     description_fr:
       "Une API Google qui vous permet de rechercher des livres avec un auteur donné",
     image: "https://cdn-icons-png.flaticon.com/512/603/603197.png",
-    link: "https://github.com/tiballion/googleauthor",
+    link: "googleauthor.vercel.app",
     linktext: "Github",
     stack: ["React", "API", "Parsing"],
   },
