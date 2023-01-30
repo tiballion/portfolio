@@ -6,7 +6,8 @@ export default [
       "A website/API that scrapes images of penguins from Yahoo Image and displays them on page load",
     description_fr:
       "Un site/API qui récupère des images de pingouins sur Yahoo Image et les affiche au chargement de la page",
-    image: "http://penguinos.xyz",
+    image:
+      "https://images.unsplash.com/photo-1598439210625-5067c578f3f6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80",
     link: "http://penguinos.xyz",
     linktext: "Demo",
     stack: ["Python", "Flask", "Regex", "API"],

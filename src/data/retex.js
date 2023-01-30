@@ -3,7 +3,8 @@ export default [
     id: 1,
     title: "Penguinos",
     description: "Un site/API qui affiche des images aléatoires de pingouins",
-    image: "http://penguinos.xyz",
+    image:
+      "https://images.unsplash.com/photo-1598439210625-5067c578f3f6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80",
     link: "http://penguinos.xyz",
     linktext: "Demo",
     stack: ["Python", "Flask", "Regex", "API"],
